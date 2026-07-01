@@ -174,7 +174,7 @@ footer{
 </div>
 
 <nav>
-<a href="#">inicio<a>
+<a href="#">inicio</a>
 <a href="med">Medicamentos</a>
 <a href="hig">Higiene</a>
 <a href="cos">Cosméticos</a>
@@ -345,7 +345,7 @@ HTML_MEDICAMENTOS = """
     <nav>
 </header>
 
-<h2>Setor de Higiene</h2>
+<h2>Setor de Medicamentos</h2>
 
 <section class="produtos">
     {% for p in produtos %}
@@ -727,11 +727,11 @@ h2{
 
 
 footer{
-    margin-top:350px;
+    margin-top:600px;
     background:#d50000;
     color:white;
     text-align:center;
-    padding:1px;
+    padding:20px;
 }
 </style>
 </head>
